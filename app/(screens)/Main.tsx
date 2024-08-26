@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 
-const App = () => {
+const Main = () => {
   return (
     <View style={Styles.container}>
       <Text>App bang!!!</Text>
@@ -15,9 +15,6 @@ const Styles = StyleSheet.create({
     margin : 0,
     padding : 0
   }
-
-  
-
 })
 
-export default App
+export default Main
