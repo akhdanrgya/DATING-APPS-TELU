@@ -3,7 +3,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <View>
+    <View style={Styles.container}>
       <Text>App bang!!!</Text>
     </View>
   )
@@ -15,6 +15,9 @@ const Styles = StyleSheet.create({
     margin : 0,
     padding : 0
   }
+
+  
+
 })
 
 export default App
